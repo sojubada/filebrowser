@@ -1,0 +1,16 @@
+            - name: Build Apple Platforms
+  # You may pin to the exact commit or the version.
+  # uses: EmilioPelaez/build-apple-platforms@b068558b0bf68efdf8591ca9f9b8c26701f9df9e
+  uses: EmilioPelaez/build-apple-platforms@v1.0.0
+  with:
+    # The path to the Xcode workspace file. Only one of workspace and project should be set.
+    workspace: # optional
+    # The path to the Xcode project file. Only one of workspace and project should be set.
+    project: # optional
+    # The scheme to build
+    scheme: 
+    # The scheme to build the watchOS App
+    watch_scheme: # optional
+    # Comma-separated list of platforms to exclude from the build, supported values: ios, mac, watch, vision, tv
+    exclude: # optional
+          
